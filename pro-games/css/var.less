@@ -1,0 +1,35 @@
+//main: style.less;
+@yellow: #FFBB00;
+@main:#515151;
+@green:#04FF51;
+@wrapper:#292727;
+
+@border:1px solid;
+
+.border(@left,@top,@right,@bottom){
+	border-left: @left;
+	border-top:@top;
+	border-right:@right;
+	border-bottom:@bottom;
+}
+.href(@lis,@dec){
+	list-style-type: @lis;
+	text-decoration: @dec;
+}
+.flex(@dir,@con){
+    display: flex;
+	flex-direction: @dir;
+	justify-content: @con;
+}
+.center(@con,@itm){
+    display: flex;
+	justify-content: @con;
+	align-items: @itm;
+}
+@font-face{
+font-family: 'My';
+src: url('../font/mr_vlashu_vlashu.otf');
+font-weight: normal;
+font-style: normal;
+}
+
